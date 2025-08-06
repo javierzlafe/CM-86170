@@ -37,7 +37,7 @@ titulo.addEventListener("click", ()=>console.log("hola desde un evento"))
  */
 
 
-
+/* 
 let contenedor =  document.getElementById("container")
 
 contenedor.addEventListener("mousemove", (event)=>{
@@ -46,5 +46,25 @@ contenedor.addEventListener("mousemove", (event)=>{
 
 contenedor.addEventListener("click", ()=>console.log("tatatatatatatata"))
 contenedor.addEventListener("mouseup", ()=>console.log("cargando"))
+ */
 
 
+/* let inputField = document.getElementById("pochoclo")
+
+console.log(inputField)
+
+inputField.addEventListener("change", function(event){
+    console.log("el valor del campo cambio a: " + event.target.value)
+}) */
+
+
+
+
+
+let form = document.getElementById("formulario")
+
+form.addEventListener("submit", function(event){
+    event.preventDefault()
+    confirm("queres enviarlo??")
+    console.log("formulario enviado")
+})
