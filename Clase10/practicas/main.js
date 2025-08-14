@@ -27,7 +27,7 @@ modularizar salida al dom
 
     return new Promise(  (resolve,reject)=>{
         setTimeout( ()=>{
-            const exito = Math.random() > 0.5 // 80% de chances de que sea verdadero
+            const exito = Math.random() > 0.2 // 80% de chances de que sea verdadero
 
 
             if(exito){
